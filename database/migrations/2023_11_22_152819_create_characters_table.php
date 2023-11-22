@@ -15,6 +15,20 @@ return new class extends Migration
     {
         Schema::create('characters', function (Blueprint $table) {
             $table->id();
+
+            $table->string('name', 50);
+            $table->string('height', 10);
+            $table->string('weight', 10);
+            $table->text('background');
+            $table->string('image');
+            $table->tinyInteger('armor_class')->unsigned();
+            $table->tinyInteger('str')->unsigned();
+            $table->tinyInteger('dex')->unsigned();
+            $table->tinyInteger('con')->unsigned();
+            $table->tinyInteger('int')->unsigned();
+            $table->tinyInteger('wis')->unsigned();
+            $table->tinyInteger('cha')->unsigned();
+
             $table->timestamps();
         });
     }
