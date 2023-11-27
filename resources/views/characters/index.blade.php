@@ -11,11 +11,13 @@
                         <img class="card-img-top" src="{{ $character->image }}" alt="{{ $character->name }}">
 
                         <div class="card-body">
-                            <h5 class="card-title mb-3">Nome Cazzuto: {{ $character->name }}</h5>
+                            <h5 class="card-title mb-3"><strong>Nome Cazzuto:</strong> {{ $character->name }}</h5>
                         </div>
                     </div>
                 </a>
             </div>
         @endforeach
     </div>
+
+    {{ $characters->links() }}
 @endsection
