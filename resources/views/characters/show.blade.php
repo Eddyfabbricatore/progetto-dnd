@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
-    <h1>{{ $character->name }}</h1>
+    <h1>{{ $character->name }} <a href="{{ route('characters.edit', $character) }}" class="btn btn-warning"><i class="fa-solid fa-pencil"></i></a> <a href="#" class="btn btn-danger"><i class="fa-solid fa-trash"></i></a></h1>
 
     <div class="card mb-3" style="max-width: 80vw;">
         <div class="row g-0">
