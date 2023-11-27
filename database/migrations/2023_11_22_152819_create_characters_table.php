@@ -17,6 +17,7 @@ return new class extends Migration
             $table->id();
 
             $table->string('name', 50);
+            $table->string('slug', 50);
             $table->string('height', 10);
             $table->string('weight', 10);
             $table->text('background');
