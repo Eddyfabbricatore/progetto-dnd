@@ -15,7 +15,7 @@ class CharacterController extends Controller
      */
     public function index()
     {
-        $characters = Character::all();
+        $characters = Character::orderBy('id', 'desc')->paginate(10);
         return view('characters.index', compact('characters'));
     }
 

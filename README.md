@@ -1,1 +1,1 @@
-# Collaboratori: Vincenzo, Alessandro D'Aniello, Alessandro Pirisinu
+# Collaboratori: Eddy Fabbricatore, Vincenzo Immordino, Alessandro D'Aniello, Alessandro Pirisinu, Veronica Fontana

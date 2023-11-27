@@ -1,13 +1,14 @@
 @extends('layouts.main')
 
 @section('content')
-    <h1>{{ $character->name }} <a href="{{ route('characters.edit', $character) }}" class="btn btn-warning"><i class="fa-solid fa-pencil"></i></a> <a href="#" class="btn btn-danger"><i class="fa-solid fa-trash"></i></a></h1>
+    <h1>{{ $character->name }} <a class="btn btn-warning" href="{{ route('characters.edit', $character) }}"><i class="fa-solid fa-pencil"></i></a> <a class="btn btn-danger" href="#"><i class="fa-solid fa-trash"></i></a></h1>
 
     <div class="card mb-3" style="max-width: 80vw;">
         <div class="row g-0">
           <div class="col-md-4">
             <img src="{{ $character->image }}" class="img-fluid rounded-start h-100" alt="{{ $character->name }}">
           </div>
+
           <div class="col-md-8">
             <div class="card-body">
                 <h6 class="card-title"><strong>Nome Cazzuto:</strong> {{ $character->name }}</h6>

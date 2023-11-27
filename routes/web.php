@@ -15,5 +15,5 @@ use App\Http\Controllers\CharacterController;
 |
 */
 
-Route::resource('characters', CharacterController::class);
 Route::get('/', [PageController::class, 'index'])->name('home');
+Route::resource('characters', CharacterController::class);

@@ -1,9 +1,9 @@
-<div class="btn-box d-flex p-3 gap-4 justify-content-center">
+<div class="btn-box d-flex justify-content-center p-3 gap-4">
     @if ($prevCharacter)
-        <a href="{{ route('characters.show', $prevCharacter->id) }}" class="btn btn-primary">Cazzuto Precedente</a>
+        <a class="btn btn-primary" href="{{ route('characters.show', $prevCharacter->id) }}">Cazzuto Precedente</a>
     @endif
 
     @if ($nextCharacter)
-        <a href="{{ route('characters.show', $nextCharacter->id) }}" class="btn btn-primary">Cazzuto Successivo</a>
+        <a class="btn btn-primary" href="{{ route('characters.show', $nextCharacter->id) }}">Cazzuto Successivo</a>
     @endif
 </div>

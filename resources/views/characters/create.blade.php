@@ -17,31 +17,31 @@
         @csrf
 
         <div class="mb-3">
-            <label for="name" class="form-label">Nome Cazzuto</label>
-            <input type="text" class="form-control" id="name" name="name" value="{{ old("name") }}">
+            <label class="form-label" for="name">Nome Cazzuto</label>
+            <input class="form-control" type="text" id="name" name="name" value="{{ old("name") }}">
             {{-- @error("title")
                 <p class="text-danger">{{$message}}</p>
             @enderror --}}
         </div>
 
         <div class="mb-3">
-            <label for="height" class="form-label">Altezza Cazzuto</label>
-            <input type="text" class="form-control" id="height" name="height" value="{{ old("height") }}">
+            <label class="form-label" for="height">Altezza Cazzuto</label>
+            <input class="form-control" type="text" id="height" name="height" value="{{ old("height") }}">
             {{-- @error("height")
                 <p class="text-danger">{{$message}}</p>
             @enderror --}}
         </div>
 
         <div class="mb-3">
-            <label for="weight" class="form-label">Peso Cazzuto</label>
-            <input type="text" class="form-control" id="weight" name="weight" value="{{ old("weight") }}">
+            <label class="form-label" for="weight">Peso Cazzuto</label>
+            <input class="form-control" type="text" id="weight" name="weight" value="{{ old("weight") }}">
             {{-- @error("weight")
                 <p class="text-danger">{{$message}}</p>
             @enderror --}}
         </div>
 
         <div class="mb-3">
-            <label for="background" class="mb-2">Background Cazzuto</label>
+            <label class="mb-2" for="background">Background Cazzuto</label>
             <div class="form-floating">
                 <textarea class="form-control" id="background" name="background">{{ old("background") }}</textarea>
             </div>
@@ -51,56 +51,56 @@
         </div>
 
         <div class="mb-3">
-            <label for="armor_class" class="form-label">Classe Armatura Cazzuto</label>
-            <input type="text" class="form-control" id="armor_class" name="armor_class" value="{{ old("armor_class") }}">
+            <label class="form-label" for="armor_class">Classe Armatura Cazzuto</label>
+            <input class="form-control" type="text" id="armor_class" name="armor_class" value="{{ old("armor_class") }}">
             {{-- @error("armor_class")
                 <p class="text-danger">{{$message}}</p>
             @enderror --}}
         </div>
 
         <div class="mb-3">
-            <label for="str" class="form-label">Forza Cazzuto</label>
-            <input type="text" class="form-control" id="str" name="str" value="{{ old("str") }}">
+            <label class="form-label" for="str">Forza Cazzuto</label>
+            <input class="form-control" type="text" id="str" name="str" value="{{ old("str") }}">
             {{-- @error("str")
                 <p class="text-danger">{{$message}}</p>
             @enderror --}}
         </div>
 
         <div class="mb-3">
-            <label for="dex" class="form-label">Destrezza Cazzuto</label>
-            <input type="text" class="form-control" id="dex" name="dex" value="{{ old("dex") }}">
+            <label class="form-label" for="dex">Destrezza Cazzuto</label>
+            <input class="form-control" type="text" id="dex" name="dex" value="{{ old("dex") }}">
             {{-- @error("dex")
                 <p class="text-danger">{{$message}}</p>
             @enderror --}}
         </div>
 
         <div class="mb-3">
-            <label for="con" class="form-label">Costituzione Cazzuto</label>
-            <input type="text" class="form-control" id="con" name="con" value="{{ old("con") }}">
+            <label class="form-label" for="con">Costituzione Cazzuto</label>
+            <input class="form-control" type="text" id="con" name="con" value="{{ old("con") }}">
             {{-- @error("con")
                 <p class="text-danger">{{$message}}</p>
             @enderror --}}
         </div>
 
         <div class="mb-3">
-            <label for="int" class="form-label">Intelligenza Cazzuto</label>
-            <input type="text" class="form-control" id="int" name="int" value="{{ old("int") }}">
+            <label class="form-label" for="int">Intelligenza Cazzuto</label>
+            <input class="form-control" type="text" id="int" name="int" value="{{ old("int") }}">
             {{-- @error("int")
                 <p class="text-danger">{{$message}}</p>
             @enderror --}}
         </div>
 
         <div class="mb-3">
-            <label for="wis" class="form-label">Saggezza Cazzuto</label>
-            <input type="text" class="form-control" id="wis" name="wis" value="{{ old("wis") }}">
+            <label class="form-label" for="wis">Saggezza Cazzuto</label>
+            <input class="form-control" type="text" id="wis" name="wis" value="{{ old("wis") }}">
             {{-- @error("wis")
                 <p class="text-danger">{{$message}}</p>
             @enderror --}}
         </div>
 
         <div class="mb-3">
-            <label for="cha" class="form-label">Carisma Cazzuto</label>
-            <input type="text" class="form-control" id="cha" name="cha" value="{{ old("cha") }}">
+            <label class="form-label" for="cha">Carisma Cazzuto</label>
+            <input class="form-control" type="text" id="cha" name="cha" value="{{ old("cha") }}">
             {{-- @error("cha")
                 <p class="text-danger">{{$message}}</p>
             @enderror --}}
