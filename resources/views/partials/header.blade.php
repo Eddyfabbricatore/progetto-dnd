@@ -7,7 +7,7 @@
           <a class="nav-link" href="{{ route('characters.index') }}">Lista Cazzuti</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Crea Cazzuti</a>
+          <a class="nav-link" href="{{ route('characters.create') }}">Crea Cazzuto</a>
         </li>
       </ul>
 </header>
